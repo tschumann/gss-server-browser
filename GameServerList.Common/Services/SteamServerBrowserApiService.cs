@@ -57,6 +57,17 @@ public class SteamServerBrowserApiService
                 var gamedirFilter = string.IsNullOrEmpty(game.GameDir) ? string.Empty : $"\\gamedir\\{game.GameDir}";
                 var extraFilters = string.IsNullOrEmpty(game.Filters) ? string.Empty : game.Filters;
 
+                // TODO: use the below to mock out a response
+                //return [
+                //    new GameServerItem()
+                //    {
+                //        Name = "b",
+                //        Address = "127.0.0.1:27015",
+                //        CurrentPlayers = 1
+                //    }
+                //    ];
+
+
                 return await Fetch<GameServerItem>(
                     $"IGameServersService/GetServerList/v1/?key={_apiKey}&limit={_querySize}&filter=appid\\{game.AppId}{gamedirFilter}{extraFilters}"
                 );
