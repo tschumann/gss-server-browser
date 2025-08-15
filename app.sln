@@ -7,8 +7,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameServerList", "GameServe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameServerList.Common", "GameServerList.Common\GameServerList.Common.csproj", "{65AF5E3A-A856-474B-BED9-C82CD4D46900}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameServerList.Tests", "GameServerList.Tests\GameServerList.Tests.csproj", "{D0ECDD4B-6BF3-4915-BCC7-7818BC42E5CA}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,10 +21,6 @@ Global
 		{65AF5E3A-A856-474B-BED9-C82CD4D46900}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{65AF5E3A-A856-474B-BED9-C82CD4D46900}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{65AF5E3A-A856-474B-BED9-C82CD4D46900}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D0ECDD4B-6BF3-4915-BCC7-7818BC42E5CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D0ECDD4B-6BF3-4915-BCC7-7818BC42E5CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D0ECDD4B-6BF3-4915-BCC7-7818BC42E5CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D0ECDD4B-6BF3-4915-BCC7-7818BC42E5CA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

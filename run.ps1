@@ -10,6 +10,4 @@ $wd = Split-Path $scriptpath
 # set the working directory as this file's directory
 Push-Location $wd
 
-cd GameServerList.App
-
-dotnet run
+dotnet run --project GameServerList.App
